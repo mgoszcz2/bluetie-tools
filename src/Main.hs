@@ -2,7 +2,7 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE NamedFieldPuns #-}
 {-# LANGUAGE DeriveGeneric #-}
-module Tie where
+module Main where
 
 import Hardware.Microcode
 import GHC.Generics (Generic)
