@@ -19,10 +19,9 @@ cabal-version:       >=1.10
 executable tools
   main-is:             Main.hs
   -- other-modules:       
-  other-extensions:    TemplateHaskell, RecordWildCards, NamedFieldPuns, DeriveGeneric
+  other-extensions:    
   build-depends:       base >=4.7 && <4.8,
-                       microcode ==0.*,
-                       fclabels ==2.0.*
+                       microcode ==0.*
   hs-source-dirs:      src
   default-language:    Haskell2010
-  ghc-options:         -Wall
+  ghc-options:         -Wall -O2
